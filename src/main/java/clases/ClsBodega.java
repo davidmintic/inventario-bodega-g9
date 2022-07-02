@@ -41,13 +41,17 @@ public class ClsBodega {
         }
         
     }
+
+    public ClsBodega(String codigo, int capacidad, String nombre, String direccion, String ciudad) {
+        this.codigo = codigo;
+        this.capacidad = capacidad;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.ciudad = ciudad;
+    }
     
    
-    public ClsBodega(String codigo, String nombre, ClsResponsable responsable){
-         this.codigo = codigo;        
-         this.nombre = nombre;
-         this.responsable = responsable;
-    }
+  
      
 
     public String MostrarCaracteristicas(){

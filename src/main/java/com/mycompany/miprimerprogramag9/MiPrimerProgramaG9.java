@@ -17,7 +17,7 @@ public class MiPrimerProgramaG9 {
         
         responsable.getAntiguedad();
         
-        ClsBodega bodega = new ClsBodega("BOD01", "Bodega la 51", responsable);
+        //ClsBodega bodega = new ClsBodega("BOD01", "Bodega la 51", responsable);
         
        
 
@@ -29,8 +29,8 @@ public class MiPrimerProgramaG9 {
         
         
         
-        bodega.IngresarTapaboca(tapaboca);       
-        bodega.IngresarTapaboca(tapaboca2);
+        //bodega.IngresarTapaboca(tapaboca);       
+        //bodega.IngresarTapaboca(tapaboca2);
         
         
 
